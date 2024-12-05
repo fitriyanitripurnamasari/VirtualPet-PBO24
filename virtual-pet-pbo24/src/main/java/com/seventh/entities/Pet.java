@@ -13,6 +13,9 @@ public abstract class Pet {
     private final static double  DOG_MAX_HEALTH = 100;
     private final static double  CAT_MAX_HEALTH = 70;
     private final static double  HAMSTER_MAX_HEALTH = 50;
+    private final static double  PARROT_MAX_HEALT = 70;
+    private final static double  TURTLE_MAX_HEALT = 70;
+    private final static double  RABBIT_MAX_HEALT = 70;
     
     private final double MAX_STATS = 100;
     protected double health, energy, hunger, thirst, happiness, cleanness;
@@ -101,6 +104,9 @@ public abstract class Pet {
     public static double DOG_MAX_HEALTH() {return DOG_MAX_HEALTH;}
     public static double CAT_MAX_HEALTH() {return CAT_MAX_HEALTH;}
     public static double HAMSTER_MAX_HEALTH() {return HAMSTER_MAX_HEALTH;}
+    public static double PARROT_MAX_HEALT() {return PARROT_MAX_HEALT;}
+    public static double TURTLE_MAX_HEALT() {return TURTLE_MAX_HEALT;}
+    public static double RABBIT_MAX_HEALT() {return RABBIT_MAX_HEALT;}
     
     // Getter status level
     public double getHealth(){return health;}
